@@ -166,7 +166,7 @@ function marcaPonto() {
 
   }
   if (xBolinha < 11) {
-    pontosOponente += 1
+    pontosDoOponente += 1
     ponto.play();
   }
 }
