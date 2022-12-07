@@ -23,7 +23,7 @@ let chanceDeErrar;
 
 //parametros para o placar do jogo
 let meusPontos = 0;
-let pontosOponente = 0;
+let pontosDoOponente = 0;
 
 //sons do jogo
 let raquetada;
