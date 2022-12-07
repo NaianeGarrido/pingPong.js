@@ -111,9 +111,11 @@ function movimentaRaqueteOponenteAutomatico(){
 
 //para jogar com outra pessoa fisica
 function movimentaRaqueteOponenteAdversario(){
+// codigo para tecla "W" fornecido pelo keycode.info
   if (keyIsDown(87)){
     yRaqueteOponente -= 11;
   }
+// tecla "S"
   if (keyIsDown(83)){
     yRaqueteOponente += 11;
   }
